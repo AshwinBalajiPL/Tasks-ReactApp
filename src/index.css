@@ -110,3 +110,18 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+
+#delete-btn , #edit-btn{
+  cursor: pointer;
+}
+
+#delete-btn:hover{
+  color: red;
+  transition: .5s;
+}
+
+#edit-btn:hover
+{
+  color: steelblue; 
+  transition: .5s;
+}
