@@ -2,10 +2,10 @@ import React from 'react';
 import { FaTrashAlt } from 'react-icons/fa';
 import { FaPenSquare } from 'react-icons/fa';
 
-const TaskBtns = ({onDelete}) => {
+const TaskBtns = ({onDelete,onShowEdit}) => {
   return (
     <p>
-        <FaPenSquare id='edit-btn' /> <FaTrashAlt id='delete-btn' onClick={onDelete}/>
+        <FaPenSquare id='edit-btn' onClick={onShowEdit} /> <FaTrashAlt id='delete-btn' onClick={onDelete}/>
     </p>
   )
 }
